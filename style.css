@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+    background-color: #111111
+}
+nav{
+    margin-top: 100px;
+    background-color: #666;
+    width: auto;
+    height: 70px;
+    border-bottom: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+}
+#menu_align{
+    width: 1024px;
+    height: 68px;
+    margin: 0 auto;
+}
+#menu_logo{
+    background-image: url(image/logo.png);
+    background-repeat: no-repeat;
+    margin: 5px 15px;
+    width: 230px;
+    height: 41px;
+    float: left;
+    padding: 10px 50px 10px 20px;
+}
+nav ul{
+    padding: 10px 20px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 0px 0px 60px;
+    color: #FFF;
+    font: 25px "Trebuchet MS", Arial, sans-serif;
+}
+nav ul li a{
+    padding: 2px 50px;
+    float: left;
+    color: #FFF;
+    text-decoration: none;
+}

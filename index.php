@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html lang="pt-br">
     <head>
+        <title>Blog php</title>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <header>
+            <nav>
+                <div id="menu_align">
+                    <ul>
+                        <li id="menu_logo"></li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                        
+                </div>
+            </nav>
+        </header>
     </body>
 </html>
